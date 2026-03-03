@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #050a10; /* கரும் நீல நிற பின்னணி */
+    background-image: radial-gradient(circle, #0a192f 0%, #050a10 100%);
+    color: #e0b35e; /* தங்க நிற எழுத்துக்கள் */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+}
+
+.college-info {
+    background: rgba(0, 50, 60, 0.4);
+    border: 1px solid #1a3a4a;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.society {
+    color: #ffd700;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 70px;
+    margin-top: 30px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 20px rgba(224, 179, 94, 0.5);
+}
+
+.hero h2 {
+    font-size: 30px;
+    letter-spacing: 15px;
+    margin-top: -15px;
+}
+
+.tagline {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.details-box {
+    background: rgba(0, 50, 60, 0.6);
+    border: 2px solid #00d2ff;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 30px 0;
+    color: #00d2ff;
+    font-weight: bold;
+}
+
+.countdown-section p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.time-box {
+    background: rgba(0, 50, 60, 0.5);
+    border: 1px solid #00d2ff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70px;
+}
+
+.time-box span {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+
+.time-box p {
+    font-size: 10px;
+    margin: 0;
+}
